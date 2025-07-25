@@ -3,6 +3,7 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
 // Add your imports here
+import LandingPage from "pages/landing-page";
 import WalletManagement from "pages/wallet-management";
 import ComplianceDashboard from "pages/compliance-dashboard";
 import Dashboard from "pages/dashboard";
