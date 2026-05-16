@@ -12,6 +12,7 @@ import TransactionMonitoring from "pages/transaction-monitoring";
 import RealTimeAlerts from "pages/real-time-alerts";
 import AutoRebalancing from "pages/auto-rebalancing";
 import AccessControl from "pages/access-control";
+import RegulatoryIntelligence from "pages/regulatory-intelligence";
 import Login from "pages/login";
 import Register from "pages/register";
 import NotFound from "pages/NotFound";
@@ -34,6 +35,7 @@ const Routes = () => {
         <Route path="/real-time-alerts" element={<RealTimeAlerts />} />
         <Route path="/auto-rebalancing" element={<AutoRebalancing />} />
         <Route path="/access-control" element={<AccessControl />} />
+        <Route path="/regulatory-intelligence" element={<RegulatoryIntelligence />} />
         <Route path="*" element={<NotFound />} />
       </RouterRoutes>
       </ErrorBoundary>
