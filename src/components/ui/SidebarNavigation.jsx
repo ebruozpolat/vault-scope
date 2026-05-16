@@ -59,7 +59,18 @@ const SidebarNavigation = ({ isOpen, onClose }) => {
       id: 'compliance',
       label: 'Compliance',
       icon: 'FileCheck',
-      path: '/compliance-dashboard'
+      children: [
+        {
+          label: 'Compliance Dashboard',
+          path: '/compliance-dashboard',
+          icon: 'FileCheck'
+        },
+        {
+          label: 'Regulatory Intelligence',
+          path: '/regulatory-intelligence',
+          icon: 'Network'
+        }
+      ]
     },
     {
       id: 'access-control',
